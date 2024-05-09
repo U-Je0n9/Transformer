@@ -37,3 +37,5 @@ class WordEmbedding(nn.Module):
         if torch.cuda.is_available():
             pos_encoding = pos_encoding.cuda()
         return pos_encoding
+
+vocab_size = 30000
